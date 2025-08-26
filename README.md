@@ -17,15 +17,15 @@ A simple Python-based app that converts raster images to pixel-perfect SVGs. The
 
 ## Screenshots
 
-<img width="902" height="652" alt="image" src="https://github.com/user-attachments/assets/eae8c028-8111-43c0-acca-25d778442a54" />
+<img width="902" height="652" alt="image" src="https://github.com/user-attachments/assets/0932de19-6a8e-424a-8b1f-79944e7e6bd1" />
 
 ## Installation
 
 1. Clone or download the repository:
 
 ```bash
-git clone https://github.com/argsfried/pixel-perfect-svg-converter.git
-cd pixel-perfect-svg-converter
+git clone https://github.com/argsfried/pixel-perfect-image-to-svg-converter.git
+cd pixel-perfect-image-to-svg-converter
 ```
 
 2. Install dependencies:
@@ -39,7 +39,7 @@ pip install pillow customtkinter
 ### Python Run
 
 ```bash
-python pixel-perfect-svg-converter.py
+python pixel-perfect-image-to-svg-converter.py
 ```
 
 ### Windows EXE
@@ -47,7 +47,7 @@ python pixel-perfect-svg-converter.py
 Use **PyInstaller** to create an executable:
 
 ```bash
-pyinstaller --onefile --windowed --icon=convert.ico pixel-perfect-svg-converter.py
+pyinstaller --onefile --windowed --icon=pixel-perfect-svg-converter.ico --name "Pixel Perfect Image to SVG Converter" pixel-perfect-image-to-svg-converter.py
 ```
 
 * The EXE will appear in `dist/`.
