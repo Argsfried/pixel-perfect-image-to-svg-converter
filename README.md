@@ -2,7 +2,7 @@
 
 A simple Python-based app that converts raster images to pixel-perfect SVGs. The app features a modern UI built with **CustomTkinter**, outputs lossless SVGs composed of `<rect>` horizontal runs, and is ready to package into an `.exe` for Windows.
 
----
+**Download Link:** https://github.com/Argsfried/pixel-perfect-image-to-svg-converter/releases/download/on-publish/Pixel-Perfect-Image-to-SVG-Converter.exe
 
 ## Features
 
