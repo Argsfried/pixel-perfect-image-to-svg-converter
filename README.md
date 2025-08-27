@@ -82,4 +82,4 @@ pip install pillow customtkinter
 
 ## License
 
-MIT License
+[MIT License](LICENSE)
